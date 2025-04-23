@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native';
 
-export default function LembreteRemedios(){
+export default function DiarioAlimentar(){
   return(
     <View>
       <Text>

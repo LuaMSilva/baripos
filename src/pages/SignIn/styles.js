@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   justify-content: center;
-  alignItems: 'center';
+  alignItems: center;
   padding: 20px;
 `;
 
@@ -27,7 +27,7 @@ export const Subtitulo = styled.Text`
 `;
 
 export const Label = styled.Text`
-  align-self: flex-star t;
+  align-self: flex-start;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 5px;

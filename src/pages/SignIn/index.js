@@ -52,6 +52,7 @@ export default function SignIn(){
                 placeholder="Digite sua senha"
                 value={password}
                 onChangeText={(text) => setPassword(text)}
+                secureTextEntry={true}
                 />
             </AreaInput>
 
