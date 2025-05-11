@@ -3,10 +3,9 @@ import React, { useEffect } from 'react';
 import { StatusBar, Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { db } from './src/firebaseConnection'
-import PushNotification from 'react-native-push-notification';
 
-import Routes from './src/routes';
 import AuthProvider from './src/contexts/auth';
+import Routes from './src/routes';
 
 export default function App(){ 
   return (

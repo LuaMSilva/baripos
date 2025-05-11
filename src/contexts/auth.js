@@ -97,34 +97,6 @@ function AuthProvider({ children }){
       setAuthUser(null);
     }
 
-/*
-
-    async function signIn(email, password) {
-        console.log("Email teste: ", email)
-        console.log("Senha teste: ", password)
-    }
-
-    useEffect(() => {
-
-        async function getDados(){
-
-            const usersRef = collection(db, "usuarios");
-
-            await getDocs(usersRef)
-            .then((snapshot) => { // acessa todos os objetos
-                let lista = []
-
-                snapshot.forEach((doc) => {
-                    lista.push
-                })
-
-            })
-
-        }
-        getDados();
-
-    }, [])
-*/
     return(
         <AuthContext.Provider value={{ signed: !!user, user, signUp, signIn, handleSignOut }}>
             {children}
